@@ -8,6 +8,8 @@ I just write/copied the ebuilds.
 If you find there is an update to a package or there is a bug in my ebuild
 please submit an issue or a pull request.
 
+[![wercker status](https://app.wercker.com/status/19c31bad0265061edcb86487e688ba08/s/master "wercker status")](https://app.wercker.com/project/bykey/19c31bad0265061edcb86487e688ba08)
+
 ## List of ebuilds
 
 * **media-radio/fllog** (1.2.1)

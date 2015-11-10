@@ -1,17 +1,16 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
-EAPI="5"
+EAPI=5
 
 DESCRIPTION="A neat and simple webcam app which captures images from a V4L1/V4L2 compatible device"
 HOMEPAGE="http://www.sanslogic.co.uk/fswebcam/"
 SRC_URI="http://www.sanslogic.co.uk/fswebcam/files/${P}.tar.xz"
 
-SLOT="0"
 LICENSE="GPL-2"
+SLOT="0"
 KEYWORDS="~x86 ~amd64 ~arm"
-
 IUSE="+v4l +v4l2"
 
 DEPEND=">=media-libs/gd-2[png,jpeg,truetype]
