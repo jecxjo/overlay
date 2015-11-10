@@ -1,0 +1,34 @@
+--- Makefile	2011-02-05 23:03:51.000000000 -0600
++++ Makefile.new	2015-11-04 22:37:54.996320491 -0600
+@@ -1,16 +1,20 @@
+-PREFIX="/usr/local"
+-GROUP="bin"
++ifeq ($(PREFIX),)
++	PREFIX=/usr
++endif
+ 
+ all:
+-	install -o $(USER) -g $(GROUP) ./rawk $(PREFIX)/bin/rawk
+-	mkdir -p $(PREFIX)/share/rawk/
+-	cp -r ./site $(PREFIX)/share/rawk/
+-	install -o $(USER) -g $(GROUP) ./README $(PREFIX)/share/rawk
+-	find $(PREFIX)/share/rawk/ -type f -exec chmod 644 '{}' \;
+-	find $(PREFIX)/share/rawk/ -type d -exec chmod 755 '{}' \;
++
++install:
++	install -d ${DESTDIR}${PREFIX}/bin
++	install -m 755 ./rawk ${DESTDIR}${PREFIX}/bin/rawk
++	mkdir -p ${DESTDIR}${PREFIX}/share/rawk/
++	cp -r ./site ${DESTDIR}${PREFIX}/share/rawk/
++	cp -r ./test ${DESTDIR}${PREFIX}/share/rawk/
++	find ${DESTDIR}${PREFIX}/share/rawk/ -type f -exec chmod 644 '{}' \;
++	find ${DESTDIR}${PREFIX}/share/rawk/ -type d -exec chmod 755 '{}' \;
+ 
+ remove:
+-	rm -f  $(PREFIX)/bin/rawk
+-	rm -rf $(PREFIX)/share/rawk
++	rm -f  ${DESTDIR}${PREFIX}/bin/rawk
++	rm -rf ${DESTDIR}${PREFIX}/share/rawk
+ 
+-.PHONY: all remove
++.PHONY: all remove install

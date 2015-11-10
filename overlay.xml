@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>jecxjo</name>
+		<description>A personal overlay of random things</description>
+		<homepage>https://github.com/jecxjo/overlay/</homepage>
+		<owner>
+			<name>Jeff Parent</name>
+			<email>jeff@commentedcode.org</email>
+		</owner>
+		<source type="git">git://github.com/jecxjo/overlay.git</source>
+		<feed>https://github.com/jecxjo/overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
