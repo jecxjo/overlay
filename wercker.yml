@@ -1,7 +1,6 @@
-box: debian
+box: aegypius/repoman
 build:
-	steps:
-		- script:
-				name: echo
-				code: |
-					echo "hello world!"
+  steps:
+    - script:
+        name: Checking using repoman
+        code: repoman full --include-dev --pretend --verbose
