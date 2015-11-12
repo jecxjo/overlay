@@ -12,11 +12,17 @@ please submit an issue or a pull request.
 
 ## List of ebuilds
 
+* **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
 * **media-radio/trustedqsl** (2.1.3)
 * **media-video/fswebcam** (20140113)
 * **www-apps/rawk** (1.0)
+* **sys-apps/rtee** (0.1.1)
 
 ## Usage
+Add this overlay with [Layman][2]
+
+    layman -o https://raw.githubusercontent.com/jecxjo/overlay/master/overlay.xml -f -a jecxjo
 
 [1]: bugs.gentoo.org
+[2]: https://wiki.gentoo.org/wiki/Layman
