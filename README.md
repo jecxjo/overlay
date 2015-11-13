@@ -15,6 +15,7 @@ please submit an issue or a pull request.
 * **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
 * **media-radio/trustedqsl** (2.1.3)
+* **media-sound/pulsemixer** (1.0.0)
 * **media-video/fswebcam** (20140113)
 * **www-apps/rawk** (1.0)
 * **sys-apps/rtee** (0.1.1)
