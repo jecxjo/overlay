@@ -12,6 +12,7 @@ please submit an issue or a pull request.
 
 ## List of ebuilds
 
+* **app-shells/prm** (0.6.0)
 * **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
 * **media-radio/trustedqsl** (2.1.3)
