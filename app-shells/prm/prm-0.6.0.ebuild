@@ -19,8 +19,6 @@ RDEPEND="app-shells/bash"
 src_install() {
 	install -d "${D}/usr/share/prm"
 	install -m 644 prm.sh "${D}/usr/share/prm/"
-	install -d "${D}/usr/share/bash-completion/completions"
-	install -m 644 completions/complete.bash "${D}/usr/share/bash-completion/completions"
 	dodoc README.md
 }
 
