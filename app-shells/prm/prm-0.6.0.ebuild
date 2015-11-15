@@ -6,13 +6,13 @@ EAPI=5
 
 inherit eutils
 
-DESCRIPTION="A"
+DESCRIPTION="A minimal project manager for the terminal"
 HOMEPAGE="https://foo.example.org/"
 SRC_URI="https://github.com/eivind88/prm/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64 arm"
 
 RDEPEND="app-shells/bash"
 
