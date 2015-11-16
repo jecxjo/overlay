@@ -18,6 +18,7 @@ please submit an issue or a pull request.
 * **media-radio/trustedqsl** (2.1.3)
 * **media-sound/pulsemixer** (1.0.0)
 * **media-video/fswebcam** (20140113)
+* **net-news/termfeed** (9999)
 * **www-apps/rawk** (1.0)
 * **sys-apps/rtee** (0.1.1)
 
