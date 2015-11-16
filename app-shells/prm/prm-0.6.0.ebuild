@@ -7,7 +7,7 @@ EAPI=5
 inherit eutils
 
 DESCRIPTION="A minimal project manager for the terminal"
-HOMEPAGE="https://foo.example.org/"
+HOMEPAGE="https://github.com/eivind88/prm"
 SRC_URI="https://github.com/eivind88/prm/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"

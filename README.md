@@ -12,6 +12,7 @@ please submit an issue or a pull request.
 
 ## List of ebuilds
 
+* **app-misc/ohmu** (0.5.0)
 * **app-shells/prm** (0.6.0)
 * **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
