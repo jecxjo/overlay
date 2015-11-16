@@ -14,6 +14,7 @@ please submit an issue or a pull request.
 
 * **app-misc/ohmu** (0.5.0)
 * **app-shells/prm** (0.6.0)
+* **dev-vcs/git-radar** (0.6)
 * **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
 * **media-radio/trustedqsl** (2.1.3)
