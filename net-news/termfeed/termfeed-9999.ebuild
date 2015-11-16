@@ -10,16 +10,12 @@ inherit distutils-r1
 DESCRIPTION="A simple terminal feed reader"
 HOMEPAGE="https://github.com/iamaziz/TermFeed"
 
-MY_PN=TermFeed
-MY_PV=${PV}
-MY_P=${MY_PN}-${MY_PV}
-
 if [[ ${PV} == *9999 ]]; then
-	EGIT_REPO_URI="https://github.com/iamaziz/${MY_PN}.git"
+	EGIT_REPO_URI="https://github.com/iamaziz/TermFeed.git"
 	inherit git-r3
 else
 	KEYWORDS="~amd64 ~x86"
-	SCR_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
+	SCR_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 fi
 
 LICENSE="MIT"
