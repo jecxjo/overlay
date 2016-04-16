@@ -17,14 +17,15 @@ please submit an issue or a pull request.
 * **dev-tcltk/tcllib** (1.18)
 * **dev-tcltk/tcl-promise** (1.0-r2)
 * **dev-vcs/git-radar** (0.6)
+  **dev-util/redo** (0.3.0)
 * **media-gfx/imv** (1.0.0)
 * **media-radio/fllog** (1.2.1)
 * **media-radio/trustedqsl** (2.1.3)
 * **media-sound/pulsemixer** (1.0.0)
 * **media-video/fswebcam** (20140113)
 * **net-news/termfeed** (9999)
-* **www-apps/rawk** (1.0)
 * **sys-apps/rtee** (0.1.1)
+* **www-apps/rawk** (1.0)
 
 ## Usage
 Add this overlay with [Layman][2]
