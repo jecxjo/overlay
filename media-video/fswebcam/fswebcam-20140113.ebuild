@@ -4,7 +4,7 @@
 
 EAPI=5
 
-DESCRIPTION="A neat and simple webcam app which captures images from a V4L1/V4L2 compatible device"
+DESCRIPTION="A neat and simple webcam app which captures images from V4L1/V4L2 compatible"
 HOMEPAGE="http://www.sanslogic.co.uk/fswebcam/"
 SRC_URI="http://www.sanslogic.co.uk/fswebcam/files/${P}.tar.xz"
 

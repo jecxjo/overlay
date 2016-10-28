@@ -35,9 +35,8 @@ src_unpack() {
 	return
 }
 
-
 src_install() {
 	dodir /usr/lib/tcl8/8.6
-	cp "${DISTDIR}/${MY_P}.tm" ${D}/usr/lib/tcl8/8.6 || "Install failed!"
+	cp "${DISTDIR}/${MY_P}.tm" "${D}/usr/lib/tcl8/8.6" || "Install failed!"
 	dohtml "${DISTDIR}/${MY_P}.html"
 }

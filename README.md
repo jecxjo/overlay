@@ -14,6 +14,7 @@ please submit an issue or a pull request.
 
 * **app-misc/ohmu** (0.5.0)
 * **app-shells/prm** (0.6.0)
+* **app-crypt/keybase** (1.0.17_pre20160630)
 * **dev-lang/leiningen** (2.6.1)
 * **dev-scheme/racket** (6.7)
 * **dev-tcltk/tcllib** (1.18)
@@ -27,6 +28,7 @@ please submit an issue or a pull request.
 * **media-video/fswebcam** (20140113)
 * **net-news/termfeed** (9999)
 * **sys-apps/rtee** (0.1.1)
+* **sys-fs/kbfs** (1.0.2_pre20160630)
 * **www-apps/rawk** (1.0)
 
 ## Usage
