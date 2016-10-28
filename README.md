@@ -14,7 +14,8 @@ please submit an issue or a pull request.
 
 * **app-misc/ohmu** (0.5.0)
 * **app-shells/prm** (0.6.0)
-*  **dev-lang/leiningen** (2.6.1)
+* **dev-lang/leiningen** (2.6.1)
+* **dev-scheme/racket** (6.7)
 * **dev-tcltk/tcllib** (1.18)
 * **dev-tcltk/tcl-promise** (1.0-r2)
 * **dev-vcs/git-radar** (0.6)
