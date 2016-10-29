@@ -9,17 +9,15 @@ EAPI="5"
 inherit eutils pax-utils
 #inherit git-2
 
-#DESCRIPTION="Racket is a general-purpose programming language with strong support for domain-specific languages"
 DESCRIPTION="General purpose, multi-paradigm programming language in the Lisp-Scheme family."
 HOMEPAGE="http://racket-lang.org/"
 SRC_URI="minimal? ( http://download.racket-lang.org/installers/${PV}/${PN}-minimal-${PV}-src-builtpkgs.tgz ) !minimal? ( http://download.racket-lang.org/installers/${PV}/${P}-src-builtpkgs.tgz )"
-#SRC_URI="http://pre.racket-lang.org/installers/plt-${PV}-src-unix.tgz"
 EGIT_REPO_URI="git://git.racket-lang.org/plt.git"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
-IUSE="doc +futures +jit minimal +places +threads +X +ffipoll"
+IUSE="doc +futures +jit minimal +places +threads +X ffipoll"
 REQUIRED_USE="futures? ( jit )"
 
 # see bug 426316: racket/draw (which depends on cairo) is sometimes used in compile-time code or when rendering documentation
