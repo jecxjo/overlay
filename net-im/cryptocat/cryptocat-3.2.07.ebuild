@@ -34,9 +34,9 @@ src_install() {
 	dodir /opt/cryptocat
 	dodir /usr/bin
 
-	unzip dist/Cryptocat-linux-x64.zip -d ${T}
-	chmod 755 ${T}/Cryptocat-linux-x64/Cryptocat
-	mv -vf ${T}/Cryptocat-linux-x64/* ${D}/opt/cryptocat
+	unzip dist/Cryptocat-linux-x64.zip -d "${T}"
+	chmod 755 "${T}/Cryptocat-linux-x64/Cryptocat"
+	mv -vf "${T}/Cryptocat-linux-x64/*" "${D}/opt/cryptocat"
 
 	dosym /opt/cryptocat/Cryptocat /usr/bin/cryptocat
 }
