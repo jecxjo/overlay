@@ -26,6 +26,7 @@ please submit an issue or a pull request.
 * **media-radio/trustedqsl** (2.1.3)
 * **media-sound/pulsemixer** (1.0.0)
 * **media-video/fswebcam** (20140113)
+* **net-im/cryptocat** (3.2.07)
 * **net-news/termfeed** (9999)
 * **sys-apps/rtee** (0.1.1)
 * **sys-fs/kbfs** (1.0.2_pre20160630)
