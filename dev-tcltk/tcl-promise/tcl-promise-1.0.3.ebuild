@@ -13,7 +13,7 @@ DESCRIPTION="An implementation of Promises in Tcl"
 HOMEPAGE="http://tcl-promise.sourceforge.net/"
 SRC_URI="
 mirror://sourceforge/${PN}/${MY_P}.tm
-mirror://sourceforge/${PN}/${MY_P}.html
+mirror://sourceforge/${PN}/README.md
 "
 
 LICENSE="BSD"
@@ -38,5 +38,5 @@ src_unpack() {
 src_install() {
 	dodir /usr/lib/tcl8/8.6
 	cp "${DISTDIR}/${MY_P}.tm" "${D}/usr/lib/tcl8/8.6" || "Install failed!"
-	dohtml "${DISTDIR}/${MY_P}.html"
+	dodoc "${DISTDIR}/README.md"
 }
